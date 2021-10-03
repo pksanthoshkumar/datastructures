@@ -23,13 +23,15 @@ public class LinkedList {
         lastNode.setValue(value);
 
         Node currentNode = firstNode;
+        Node previousNode = null;
 
-        while (currentNode != null && currentNode.getNextNode() != null){
+        while (currentNode != null ){
+            previousNode = currentNode;
             currentNode = currentNode.getNextNode();
         }
 
-        currentNode.setNextNode(lastNode);
-        lastNode = currentNode;
+        previousNode.setNextNode(lastNode);
+
         return currentNode;
     }
     // delete First
@@ -49,8 +51,8 @@ public class LinkedList {
 
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
-        ll.addFirst(10);
-        ll.addFirst(20);
+//        ll.addFirst(10);
+//        ll.addFirst(20);
         ll.addLast(30);
 
         ll.printLL();
