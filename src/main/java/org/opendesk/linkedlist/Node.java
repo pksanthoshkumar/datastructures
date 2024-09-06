@@ -1,9 +1,10 @@
 package org.opendesk.linkedlist;
 
-import lombok.Data;
+/*import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.ToString;*/
 
+/*
 @Data
 @NoArgsConstructor
 public class Node {
@@ -17,3 +18,4 @@ public class Node {
     }
 
 }
+*/

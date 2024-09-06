@@ -1,3 +1,4 @@
+/*
 package org.opendesk.linkedlist;
 
 import lombok.Data;
@@ -58,3 +59,4 @@ public class LinkedList {
         ll.printLL();
     }
 }
+*/
