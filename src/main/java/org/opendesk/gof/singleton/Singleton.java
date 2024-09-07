@@ -1,4 +1,4 @@
-package org.opendesk.gof;
+package org.opendesk.gof.singleton;
 
 public class Singleton {
     private static Singleton instance;
